@@ -31,17 +31,17 @@ body{
     background-color: #bbe2f1;
 }
 
-/* フォーム用 */
-.sign-in-form{
+/* ログインエリア用 */
+.sign-in{
     padding: 20px;
     margin: 10px 0px;
     text-align: center;
     background-color: #006a6c;
     width: 100%;
+    color: #ffffff;
 }
 .form-field-set{
     padding: 10px;
-    color: #ffffff;
 }
 .field{
     display: block;
@@ -50,16 +50,34 @@ body{
     margin-top: 4px;
     margin-right: auto;
     margin-left: auto;
-    border:2px solid #a1d8e6;
+    border:2px solid #ffffff;
     border-radius: 4px;
+    color: #242424;
 }
 .sign-in-button{
-    margin: 10px 0px;
+    width: 300px;
+    margin: 20px 0px;
     padding: 10px 70px;
     font-weight: bold;
     color:#242424;
     background: #a1d8e6;
-    border: 3px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 18px;
+}
+input:focus{
+    outline: 2px #fcc800 solid;
+}
+.footer{
+    font-size: 14px;
+}
+.sign-up-text{
+    display: inline;
+}
+.sign-up-link{
+    display: inline;
+}
+a{
+    color: #a1d8e6;
 }
