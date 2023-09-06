@@ -4,6 +4,8 @@
 body{
     background-color: white;
 }
+
+/* グリッド用 */
 .grid{
     display: flex;
     align-items: center;
@@ -27,4 +29,37 @@ body{
 .column6 > .grid-item{
     width:16.6% ;
     background-color: #bbe2f1;
+}
+
+/* フォーム用 */
+.sign-in-form{
+    padding: 20px;
+    margin: 10px 0px;
+    text-align: center;
+    background-color: #006a6c;
+    width: 100%;
+}
+.form-field-set{
+    padding: 10px;
+    color: #ffffff;
+}
+.field{
+    display: block;
+    width:300px;
+    padding: 10px;
+    margin-top: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    border:2px solid #a1d8e6;
+    border-radius: 4px;
+}
+.sign-in-button{
+    margin: 10px 0px;
+    padding: 10px 70px;
+    font-weight: bold;
+    color:#242424;
+    background: #a1d8e6;
+    border: 3px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
 }
