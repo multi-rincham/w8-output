@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.grid-item{
+    height: 140px;
+    border: 1px solid white;
+}
+
+.column2 > .grid-item{
+    width: 50%;
+    background-color: #bce2e8;
+}
+.column4 > .grid-item{
+    width: 25%;
+    background-color: #a1d8e6;
+}
+.column6 > .grid-item{
+    width:16.6% ;
+    background-color: #bbe2f1;
+}
